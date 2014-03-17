@@ -49,7 +49,7 @@
         }
         */
         
-        .span_1 {
+        .span_1, .logo {
             margin-left:0;
             width:100%;
         }
@@ -83,7 +83,7 @@
         .span_2 {
             width:66.0%;
         }
-        .span_3 {
+        .span_3, .logo {
             margin-left:0;
             width:100%;
         }
@@ -125,7 +125,7 @@
         .span_4 {
             width:79.6%;
         }
-        .span_5 {
+        .span_5, .logo {
             margin-left:0;
             width:100%;
         }
@@ -175,7 +175,7 @@
         .span_6 {
             width:85.4285714286%;
         }
-        .span_7 {
+        .span_7, .logo {
             margin-left:0;
             width:100%;
         }
@@ -225,7 +225,7 @@
         .span_6 {
             width:85.4285714286%;
         }
-        .span_7 {
+        .span_7, .logo {
             margin-left:0;
             width:100%;
         }

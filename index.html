@@ -11,26 +11,63 @@
   <link rel="stylesheet" href="css/styles.css">	
   <link rel="icon" href="favicon.png">
 </head>
-<body>
+<body id="portfolio">
 	
 	<div class="page">
-		
-			<nav class="row">
-				<ul class="span_7">
-					<li><a href="http://djackson13.github.io/p1-bio" id="homenav">Home</a></li>
-				  <li><a href="http://djackson13.github.io/p2-resume/" id="resumenav">Resume</a></li>
-				  <li><a href="http://derrickjackson.carbonmade.com/" target="_blank"id="portfolionav">Portfolio</a></li>
-				  <li><a href="https://derrickjackson.typeform.com/to/O4UPXD" target="_blank"id="contactnav">Contact</a></li>
-				</ul>						
-			</nav>
-		
-		
-		<!-- Your Content -->
-		
-
-
-
-		<!-- Clearfix -->
+	
+		<nav class="row">
+			<ul class="col">
+			  <li><a href="http://djackson13.github.io/p1-bio" id="homenav">Home</a></li>
+			  <li><a href="http://djackson13.github.io/p2-resume/" id="resumenav">Resume</a></li>
+			  <li><a href="http://derrickjackson.carbonmade.com/" target="_blank"id="portfolionav">Portfolio</a></li>
+			  <li><a href="https://derrickjackson.typeform.com/to/O4UPXD" target="_blank"id="contactnav">Contact</a></li>
+			</ul>						
+		</nav>
+		<div class="row">
+			<div class="logo col">
+				<object data="img/my_logo.svg" type="image/svg+xml" class="chart">
+					<a href="img/my_logo.svg">
+					<!--[if lte IE 8 ]-->
+					<img src="img/my_logo.gif" alt="my logo">
+					<!--[endif]-->
+				</object>
+			</div>
+		</div>
+		<!-- css lightbox technique from http://www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/ -->
+		<div class="row">
+			<div class="col">
+				<a class="lightbox" href="#spread">
+				    <img src="img/thumb_01.jpg"/>
+				</a> 
+			</div> 
+		</div>
+		<div class="lightbox-target" id="spread">
+		   <img src="img/nessst_03.jpg"/>
+		   <a class="lightbox-close" href="#"></a>
+	   </div>
+	   <div class="row">
+			<div class="col">
+				<a class="lightbox" href="#typeface">
+				    <img src="img/thumb_02.jpg"/>
+				</a> 
+			</div> 
+		</div>
+		<div class="lightbox-target" id="typeface">
+		    <img src="img/nessst_02.jpg"/>
+		    <a class="lightbox-close" href="#"></a>
+	    </div>
+	    <div class="row">
+			<div class="col">
+				<a class="lightbox" href="#menu">
+				    <img src="img/thumb_03.jpg"/>
+				</a> 
+			</div> 
+		</div>
+		<div class="lightbox-target" id="menu">
+		    <img src="img/nessst_01.jpg"/>
+		    <a class="lightbox-close" href="#"></a>
+	    </div>
+			
 		
 	</div>
 	

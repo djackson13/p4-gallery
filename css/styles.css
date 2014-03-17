@@ -1,7 +1,32 @@
 /* Your Website Styles */
 
+nav ul {
+  padding: 0;
+  margin: 0;
+  background: black;
+  height: 40px;
+  list-style: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+nav li {
+  display: inline;
+  padding: 10px 0;
+  background: black;
+}
+
+nav a:link, nav a:visited {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+}
+nav a:hover {
+  color: black;
+  background-color: white;
+  border-top: 4px solid white;
+  border-bottom: 3px solid white;
 }

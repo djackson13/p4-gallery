@@ -5,7 +5,7 @@ nav ul {
   margin: 0;
   width: 100%;
   background: black;
-  height: 40px;
+  height: 39px;
   list-style: none;
   position: fixed;
   z-index: 0;
@@ -37,6 +37,17 @@ object {
   z-index: 0;
   margin-top: 60px;
   width: 100%;
+}
+
+body#home a#homenav,
+body#resume a#resumenav,
+body#portfolio a#portfolionav,
+body#contact a#contactnav {
+    color: #777;
+    background: white;
+    font-weight: bold;
+    border-top: 4px solid white;
+    border-bottom: 3px solid white;
 }
 
 /* css lightbox adapted from http://www.designcouch.com/home/why/2013/11/01/responsive-css3-lightbox-with-no-javascript/ */

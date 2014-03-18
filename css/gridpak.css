@@ -38,6 +38,10 @@
         .row .col:first-child {
             margin-left:0;
         }
+
+        body {
+            font-size: .7em;
+        }
         
         
         /*
